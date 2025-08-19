@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="aelwren-godot"
+run/main_scene="uid://dwbi7xgbvv5nj"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
@@ -54,4 +55,5 @@ use_magic={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
